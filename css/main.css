@@ -1,0 +1,729 @@
+
+main {
+  margin-bottom: 200px;
+  }
+main div.main {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 1300px;
+  }
+main div.main h2 {
+    
+  font-size: 80px;
+  margin-top: 100px;
+  font-family: "Playfair Display", serif;
+  color: #133e35;
+  letter-spacing: -3px;
+  margin-bottom: 30px;
+  }
+main div.main{
+  
+}
+main div.main div.mainimg {
+  background-image: url(../img/main-hero.jpg);
+  border-radius: 20px;
+  height: 60%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  }
+main div.main div.mainimg div.paddingB50{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+    
+  border-radius: 20px;
+}
+main div.main div.mainimg p {
+   color: #fceea3;
+   font-size: 24px;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+   margin-top: 30px;
+  }
+main div.main div.mainimg h3.title {
+   color: #fceea3;
+  font-size: 100px;
+  text-align: center;
+  }
+main div.main div.mainimg p.title{
+  color: #fceea3;
+  font-size: 45px;
+  text-align: center;
+   
+  margin: 30px;
+  font-family: "Playfair Display", serif;
+}
+main div.main div.mainimg p {
+    
+  }
+main div.main div.mainimg a {
+    
+  color: #fceea3;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  margin: 20px;
+  font-size: 35px;
+  
+  }
+main div.main div.mainimg a::before{
+  content:"(";
+  transform: translateX(-20px);
+  transition: 0.5s;
+}
+main div.main div.mainimg a:hover::before{
+  content:"(";
+  transform: translateX(-100px);
+  
+}
+main div.main div.mainimg a::after{
+  content:")";
+  transform: translateX(20px);
+  transition: 0.5s;
+}
+main div.main div.mainimg a:hover::after{
+  content:")";
+  transform: translateX(100px);
+  color: #fceea3 !important;
+}
+main div.main div.mainimg a i{
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #fceea3;
+  border-radius: 50%;
+  transform: translateX(10px) translateY(3px);
+  background-image: url(../img/right.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+#ani{
+  
+}
+#ani div.wrap{
+  
+}
+#ani div.wrap div.item{
+  max-width: 1400px;
+
+  }
+#ani div.wrap div.item ul.cosmaticani {
+   
+}
+#ani div.wrap div.item ul.cosmaticani li.page {
+  height: 500px;
+  background-color: #ebeae5;
+  margin: 10px;
+  border-radius: 20px;
+ 
+  width: 100%;
+  }
+#ani div.wrap div.item ul.cosmaticani .slick-next{
+  right: 50px;
+}
+#ani div.wrap div.item ul.cosmaticani .slick-prev{
+  left: 25px;
+  z-index: 1;
+}
+#ani div.wrap div.item ul.cosmaticani .slick-next::before{
+  font-size: 50px;
+}
+#ani div.wrap div.item ul.cosmaticani .slick-prev::before{
+  font-size: 50px;
+}
+#ani div.wrap div.item ul.cosmaticani li.page a::before{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 8px;
+  right: 45px;
+} 
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(1) a::before{
+  background-image: url(../img/centella_toner_7.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(2) a::before{
+  background-image: url(../img/centella_cream_8.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(3) a::before{
+  background-image: url(../img/centella_eyecream_9.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(4) a::before{
+  background-image: url(../img/centella_cream_1.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(5) a::before{
+  background-image: url(../img/centella_eyecream_2.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(6) a::before{
+  background-image: url(../img/centella_serum_3.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(7) a::before{
+  background-image: url(../img/centella_cream_4.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(8) a::before{
+  background-image: url(../img/centella_toner_5.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(9) a::before{
+  background-image: url(../img/centella_eyecream_6.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(10) a::before{
+  background-image: url(../img/centella_toner_7.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(11) a::before{
+  background-image: url(../img/centella_cream_8.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(12) a::before{
+  background-image: url(../img/centella_eyecream_9.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(13) a::before{
+  background-image: url(../img/centella_cream_1.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(14) a::before{
+  background-image: url(../img/centella_eyecream_2.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(15) a::before{
+  background-image: url(../img/centella_serum_3.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(16) a::before{
+  background-image: url(../img/centella_cream_4.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(17) a::before{
+  background-image: url(../img/centella_toner_5.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(18) a::before{
+  background-image: url(../img/centella_eyecream_6.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(19) a::before{
+  background-image: url(../img/centella_toner_7.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(20) a::before{
+  background-image: url(../img/centella_cream_8.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page:nth-child(21) a::before{
+  background-image: url(../img/centella_eyecream_9.png);
+}
+#ani div.wrap div.item ul.cosmaticani li.page a{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: relative;
+   
+  justify-content: flex-end;
+}
+#ani div.wrap div.item ul.cosmaticani li.page h3{
+  font-size: 24px;
+  margin: 0 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #133e35;
+}
+#ani div.wrap div.item ul.cosmaticani li.page p{
+  padding: 30px;
+  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #133e35;
+}
+/* 인포메이션 */
+
+#info{
+
+}
+#info div.wrap{
+
+}
+#info div.wrap h2{
+
+  font-size: 70px;
+  display: grid;
+  grid-template-columns: 1fr 600px 600px 1fr;
+  grid-template-rows: auto auto auto auto;
+  color: #133e35;
+  gap: 10px;
+}
+#info div.wrap h2 p{
+
+}
+#info div.wrap h2 p.driven{
+
+  grid-column: 2 / span 2;
+  grid-row: 1;
+}
+#info div.wrap h2 p.ex{
+
+  grid-column: 2 / span 2;
+  grid-row: 2;
+}
+#info div.wrap h2 p.we{
+
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  justify-self: right;
+}
+#info div.wrap h2 p.for{
+
+  grid-column: 2 / span 2;
+  grid-row: 4;
+  justify-self: right;
+}
+#info div.wrap h2 p i.red{
+  color: #ff5835;
+}
+#info div.wrap h2 p i.yellow{
+  
+  background-color: #fceea3;
+
+}
+
+#info div.wrap div.block{
+
+}
+#info div.wrap div.block ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+ 
+}
+#info div.wrap div.block ul li{
+  height: 850px;
+  width: 49%;
+  border-radius: 30px;
+  margin: 0 auto;
+  align-content: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 50px;
+}
+#info div.wrap div.block ul li:nth-child(1){
+  background-image: url(../img/bg2.jpg);
+}
+#info div.wrap div.block ul li:nth-child(2){
+  background-image: url(../img/bg3.jpg)
+}
+#info div.wrap div.block ul li a{
+  display: flex;
+  padding: 40px 0;
+  font-size: 40px;
+  flex-direction: column;
+  color: #fceea3;
+  font-size: 60px;
+  border-bottom: 1px solid;
+}
+#info div.wrap div.block ul li i{
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+#info div.wrap div.block ul li p{
+  color: #fceea3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 23px;
+  transform: translateY(300px);
+}
+#info div.wrap div.Discover{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 70px;
+}
+#info div.wrap div.Discover a{
+}
+#info div.wrap div.Discover a::after{
+  content:"";
+  background-image: url(../img/arrowright.svg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+#info div.wrap div.Discover span{
+ position: relative;
+  
+}
+#info div.wrap div.Discover span::before{
+  content:"(";
+  position: absolute;
+  top: 0;
+  left: -50px;
+ 
+  transition: 0.5s;
+}
+#info div.wrap div.Discover span:hover::before{
+  content:"(";
+  position: absolute;
+  left: -200px;
+  top: 0;
+}
+#info div.wrap div.Discover span::after{
+  content:")";
+  position: absolute;
+  right: -100px;
+  top: 0;
+  transition: 0.5s;
+}
+#info div.wrap div.Discover span:hover::after{
+  content:")";
+  position: absolute;
+  top: 0;
+  right: -250px;
+}
+/* 신제품 */
+
+#naturl{
+ 
+}
+#naturl div.wrap{
+  
+  max-width: 1800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 980px;
+  position: relative;
+}
+#naturl div.naturl::before{
+  content:"New Arrival";
+  position: absolute;
+  text-align: center;
+  align-content: center;
+  width: 250px;
+  height: 70px;
+  background-color: #f3e59d;
+  top: 20px;
+  left: 20px;
+  display: block;
+  z-index: 1;
+  border-radius: 15px;
+  font-size: 23px;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 600;
+  color: #133e35;
+}
+#naturl div.wrap div{
+  position: relative;
+}
+#naturl div.wrap div.img{
+  background-image: url(../img/BB-Cushion.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+#naturl div.wrap div.img div{
+  height: 100%;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 20px;
+  color: #fceea3;
+  opacity: 0.8;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+}
+
+
+#naturl div.wrap div.img div p{
+  font-size: 95px;
+}
+#naturl div.wrap div.img div h3{
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+#naturl div.wrap div.img div a{
+  color: #fceea3;
+  padding: 90px;
+  font-size: 35px;
+  position: relative;
+}
+#naturl div.wrap div.img div a::after{
+  content: ")";
+  position: absolute;
+  left: 60%;
+  transition: 0.5s;
+}
+#naturl div.wrap div.img div a:hover::after{
+  content: ")";
+  position: absolute;
+  left: 70%;
+}
+#naturl div.wrap div.img div a::before{
+  content: "(";
+  position: absolute;
+  right: 60%;
+  transition: 0.5s;
+}
+#naturl div.wrap div.img div a:hover::before{
+  content: "(";
+  position: absolute;
+  right: 70%;
+}
+#naturl div.wrap div.img div i{
+  font-size: 0;
+  background-image: url(../img/arrowrightyellow.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  transform: translateY(-20px) translateX(10px);
+}
+/* 슬라이드 */
+#slide{
+ white-space: nowrap;
+ padding: 100px 0;
+ 
+}
+#slide div.slide{
+  width: 100%;
+  overflow: hidden;
+}
+#slide div.slide span.Rooted{
+  font-size: 150px;
+  display: inline-block;
+  animation-duration:150s;
+  animation-name: rooted;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  vertical-align: top;
+  color: #133e35;
+}
+@keyframes rooted { 
+    from {
+      transform: translate3d(0%, 0, 0);
+      transform: translate3d(0%, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+}
+
+#slide div.slide span.Rooted i{
+  
+}
+/* 스킨케어 */
+#skincare{
+
+}
+#skincare div.skincare{
+  margin: 0 auto;
+  max-width: 1400px;
+}
+#skincare div.skincare ul{
+  height: 780px;
+  display: flex;
+  justify-content: space-between;
+ }
+#skincare div.skincare li.skincareimg{
+  height: 100%;
+  background-color: #ccc;
+  width: 1000px;
+  font-size: 0;
+  border-radius: 20px;
+  background-image: url(../img/main-sensorial.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  margin-left: 0;
+}
+#skincare div.skincare ul.skincare span{
+
+}
+#skincare div.skincare li.sensorial{
+  height: 100%;
+  background-color: #ebeae5;
+  width: 450px;
+  border-radius: 20px;
+  text-align: left;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 80px;
+  color: 
+#133e35; 
+  margin: 20px;
+  margin-right: 0;
+}
+#skincare div.skincare li.sensorial h3{
+  font-size: 80px;
+  padding-bottom: 40px
+}
+#skincare div.skincare li.sensorial p{
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+/* 브랜드스토리 */
+#brandstory{
+  margin-top: 200px;
+
+}
+#brandstory div.brandstory{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #ccc;
+  height: 1390px;
+  align-items: flex-end;
+  background-image: url(../img/main-brandstory-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#brandstory div.brandstory ul{
+
+}
+#brandstory div.brandstory ul li{
+  text-align: center;
+
+}
+#brandstory div.brandstory ul li h2{
+  font-size: 180px;
+  color: #fceea3;
+  padding-bottom: 50px;
+}
+#brandstory div.brandstory ul li p{
+  font-size: 50px;
+  color: #fceea3;
+  padding-bottom: 200px;
+}
+/* SNS */
+#sns{
+  margin-top: 200px;
+
+}
+#sns div.sns{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1400px;
+}
+#sns div.sns h2{
+  font-size: 180px;
+  letter-spacing: -10px;
+  color: #133e35;
+  margin-bottom: 50px;
+}
+#sns div.sns a{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#sns div.sns a ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  
+
+  
+  
+  
+
+}
+#sns div.sns a ul li{
+  display: block;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-size: contain;
+  transition: all 2s;
+  position: relative;
+  
+
+  background-repeat: no-repeat;
+}
+#sns div.sns a ul li:nth-child(1){
+  background-image: url(../img/main-insta-01.jpg);
+  font-size: 0;
+  grid-column: 1;
+  grid-row: 1;
+
+}
+#sns div.sns a ul li:nth-child(2){
+  background-image: url(../img/main-insta-02.jpg);
+  font-size: 0;
+  grid-column: 2;
+  grid-row: 1;
+
+}
+#sns div.sns a ul li:nth-child(3){
+  background-image: url(../img/main-insta-03.jpg);
+  font-size: 0;
+  grid-column: 3;
+  grid-row: 1;
+
+}
+#sns div.sns a ul li:nth-child(4){
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  font-size: 70px;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  color: #133e35;
+  transform: none;
+
+
+}
+#sns div.sns a ul li:nth-child(5){
+  display: none;
+  grid-column: 4;
+  grid-row: 1;
+
+
+}
+#sns div.sns a ul li:nth-child(6){
+  display: none;
+  grid-column: 4;
+  grid-row: 1;
+
+
+}
+#sns div.sns a ul li:nth-child(7){
+  background-image: url(../img/main-insta-04.jpg);
+  font-size: 0;
+  grid-column: 3;
+  grid-row: 2;
+
+}
+#sns div.sns a ul li:nth-child(8){
+  background-image: url(../img/main-insta-06.jpg);
+  font-size: 0;
+  grid-column: 4;
+  grid-row: 2;
+
+}
+#sns div.sns a ul li:nth-child(1){
+  background-image: url(../img/main-insta-01.jpg);
+  font-size: 0;
+}
+.currentSns{
+  transform: scale(1.05);
+  width: 100%
+}
+
+
+
+
+

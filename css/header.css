@@ -1,0 +1,168 @@
+body {
+  
+}
+body header {
+}
+body header div.wrap {
+  justify-content: space-between;
+  height: 93px;
+  align-items: center;
+
+}
+body header div.wrap nav.menu {
+} 
+body header div.wrap nav.menu ul {
+ 
+}
+body header div.wrap nav.menu ul li {
+ 
+  padding-left: 40px;
+  position: relative;
+  
+}
+body header div.wrap nav.menu ul li a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #133e35;
+  transition: 0.5s;
+  
+}
+body header div.wrap nav ul li a::after{
+  transition: 1s;
+}
+body header div.wrap nav.menu ul li:nth-child(1) a::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/statminus.svg);
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  right: -18px;
+  
+}
+body header div.wrap nav ul li a:hover::after{
+  transform: rotate(180deg);
+  filter: invert(20%) sepia(85%) saturate(6497%) hue-rotate(360deg) brightness(109%) contrast(105%);
+
+}
+body header div.wrap nav.otherside ul li a{
+  transition: 0.5s;
+}
+
+body header div.wrap nav.otherside ul li:nth-child(3) a{
+  font-size: 0;
+  background-image: url(../img/search.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-3px);
+}
+body header div.wrap nav.otherside ul li:nth-child(4) a{
+  font-size: 0;
+  background-image: url(../img/language.svg);
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-3px);
+}
+body header div.wrap h1 {
+  
+}
+body header div.wrap h1 a{
+  font-size: 0;
+  width: 97px;
+  height: 55px;
+  background-image: url(../img/purito.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header div.wrap nav.otherside {
+ 
+}
+body header div.wrap nav.otherside ul {
+  
+}
+body header div.wrap nav.otherside ul li {
+  padding-right: 40px;
+  position: relative;
+}
+body header div.wrap nav.otherside ul li a{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #133e35;
+}
+body header div.wrap nav.otherside ul li:nth-child(1) a::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/statminus.svg);
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 20px;
+}
+body header div.wrap nav.otherside ul li:nth-child(2) a::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/statminus.svg);
+  display: block;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 20px;
+  
+}
+div.title{
+  position: relative;
+}
+div.title iframe{
+  width: 1903px;
+  height: 1070px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+div.title button{
+  position: absolute;
+  color: #fff;
+  bottom: 31px;
+  z-index: 1;
+  right: 176px;
+}
+div.title button span{
+  
+} 
+
+div.title button i{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  transform: translateX(-0px);
+  font-size: 20px;
+  
+}
+div.title button i::after{
+  content:"";
+  background-image: url(../img/soundon.svg);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -30px;
+  bottom: -2px;
+}
